@@ -20,8 +20,8 @@ class MyAdapter extends ArrayAdapter<String> {
         View theView = inflater.inflate(R.layout.row_layout_2, parent, false);
 
         String cardBrand = getItem(position);
-        TextView theTextView = (TextView) theView.findViewById(R.id.textView1);
 
+        TextView theTextView = (TextView) theView.findViewById(R.id.textView1);
         theTextView.setText(cardBrand);
 
         ImageView theImageView = (ImageView) theView.findViewById(R.id.imageView1);
